@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aosp"
+           fetch="https://android.googlesource.com/" />
+
+  <remote name="github"
+           fetch="git://github.com/tommytomatoe/" />
+
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" 
+           review="review.cyanogenmod.com" />
+
+  <default revision="refs/tags/android-4.0.3_r1"
+           remote="aosp"
+           sync-j="4" />
+
+  <project path="build" name="android_build" remote="github" revision="ics">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project> 
+
+</manifest>
