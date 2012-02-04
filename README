@@ -1,1 +1,21 @@
-Future README
+Classicnerd AOSP
+
+$ repo init -u git://github.com/tommytomatoe/manifest.git -b ics
+
+#################### OR ####################
+
+$ repo init -u https://github.com/tommytomatoe/manifest.git -b ics
+
+$ repo sync -j16
+
+Grab a coffee. Grab a lunch. Come back. Enjoy.
+
+Full instructions later.
+
+Quick props: cyanogenMod. evervolv. team kang. aosp.
+
+Full props later.
+
+sincerely, 
+
+classicnerd
